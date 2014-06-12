@@ -1,0 +1,24 @@
+{
+	"name": "dbstudios/php-validate",
+	"authors": [
+		{
+			"name": "Tyler Lartonoix",
+			"email": "overlordcodemonkey@live.com"
+		}
+	],
+	"type": "library",
+	"repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.scend.net"
+        }
+    ],
+	"require": {
+		"dbstudios/php-enum": "1.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"dbstudios\\": "src/dbstudios"
+		}
+	}
+}
